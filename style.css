@@ -1,0 +1,53 @@
+body{
+    background-image: url("backimg.jpg");
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+
+}
+.container{
+    width: 34vw;
+    height: 18vw;
+    background-color: #ffffff;
+    margin: auto;
+    opacity: 0.6;
+    border-radius: 3%;
+    margin-top: 19%;
+    position: relative;
+}
+.mul{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 16%;
+    font-size: 230%;
+    color: #000;
+    font-weight: bolder;
+}
+.gover{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 16%;
+    font-size: 230%;
+    color: #000;
+    font-weight: bolder;
+}
+.score{
+    position: absolute;
+}
+.in{
+    margin-top: 35%;
+    margin-left: 20%;
+    border-width: 3px;
+    border-radius: 5%;
+}
+
+.sub:hover{
+    background-color: darkcyan;
+}
+.start{
+    display: none;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.3;
+}
